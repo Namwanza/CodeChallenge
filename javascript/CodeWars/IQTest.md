@@ -2,13 +2,13 @@ Bob is preparing to pass IQ test. The most frequent task in this test is to find
 
 ! Keep in mind that your task is to help Bob solve a real IQ test, which means indexes of the elements start from 1 (not 0)
 
-##Examples :
+## Examples :
 
 ```iqTest("2 4 7 8 10") => 3 // Third number is odd, while the rest of the numbers are even```
 
 ```iqTest("1 2 1 1") => 2 // Second number is even, while the rest of the numbers are odd```
 
-#Solution
+# Solution
 
 ```javascript
 function iqTest(numbers){
