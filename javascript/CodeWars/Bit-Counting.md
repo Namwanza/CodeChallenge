@@ -6,7 +6,7 @@ Solution:
 I found out two solutions to this challenge. 
 
 1. Solution 1
-
+```javascript
     var countBits = function(n) 
     {
         // make an array with the bit result
@@ -17,10 +17,10 @@ I found out two solutions to this challenge.
         
         return result;
     };
-
+```
 
 2. Solution 2
-
+```javascript
     var countBits = function(n) 
     {
         // Initialise count with a value 0.
@@ -34,3 +34,4 @@ I found out two solutions to this challenge.
         }
         return count;
     };
+```
