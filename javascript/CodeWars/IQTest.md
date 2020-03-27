@@ -13,13 +13,13 @@ Keep in mind that your task is to help Bob solve a real IQ test, which means ind
 ```javascript
 function iqTest(numbers){
   // ...
-  numbers = numbers.split(" ");
-    var parity = numbers.shift() % 2;
-    for( var i = 0; i < numbers.length; i++) {
-        if( numbers[i] % 2 != parity) {
-            return i + (i + 1); // 1-based, but we've also skipped the first
-        }
-    }
-    return 0; // no number broke the pattern
+  // Check if an number is an even or odd.
+   var nums = numbers.split(" ").map(x => x % 2);  
+   
+   // array of numbers has only one odd or even number.
+   var sum = nums.reduce((a,b) => a + b);  
+   var target = sum > 1 ? 0 : 1;
+
+   return nums.indexOf(target) + 1;
 }
 ```
