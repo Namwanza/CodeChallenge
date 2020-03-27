@@ -7,7 +7,8 @@ I found out two solutions to this challenge.
 
 1. Solution 1
 
-    var countBits = function(n) {
+    var countBits = function(n) 
+    {
         // make an array with the bit result
         const base = (n).toString(2).split('');
         
@@ -20,7 +21,8 @@ I found out two solutions to this challenge.
 
 2. Solution 2
 
-    var countBits = function(n) {
+    var countBits = function(n) 
+    {
         // Initialise count with a value 0.
         var count = 0;
         // when n is not equal to 0.
